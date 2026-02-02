@@ -85,5 +85,22 @@ const CONFIG = {
     }
 };
 
+// Image Settings
+images: {
+  enabled: true,
+
+  // Gallery shown during celebration or between questions
+  gallery: [
+    "https://res.cloudinary.com/ddaiq1miu/image/upload/v1769998516/Screen_Shot_2026-02-01_at_7.39.31_PM_j7kron.png",
+    "https://res.cloudinary.com/ddaiq1miu/image/upload/v1769998517/Screen_Shot_2026-02-01_at_7.43.28_PM_lohmz0.png",
+    "https://res.cloudinary.com/ddaiq1miu/image/upload/v1769998515/Screen_Shot_2026-02-01_at_8.11.43_PM_dsl2cj.png"
+  ],
+
+
+  autoSlide: true,       // auto slideshow
+  slideInterval: 3000    // ms
+}
+
+
 // Don't modify anything below this line unless you know what you're doing
 window.VALENTINE_CONFIG = CONFIG; 
